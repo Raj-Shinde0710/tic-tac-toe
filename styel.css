@@ -3,7 +3,7 @@
     width: 18vh;
     border-radius: 10px;
     color: rgb(36, 36, 36);
-    background-color:bisque;
+    background-color:rgb(0, 0, 0 , 0.7);
     font-size: x-large;
     font-weight: 700;
 }
@@ -22,11 +22,16 @@ h1{
     
      display: flex;
     justify-content: center;
+    color: white    ;
+    
+      
     
 }
 .reset button{
     padding: 1rem;
     border-radius: 10px;
+    background-color:rgb(0, 0, 0 , 0.4);
+    color: white;
     
 }
 .reset{
@@ -38,6 +43,8 @@ h1{
 .newGame{
     padding: 1rem;
     border-radius: 10px;
+     background-color:rgb(0, 0, 0 , 0.4);
+    color: white;
 }
 .msgCont{
      padding: 30px 0px;
@@ -45,9 +52,22 @@ h1{
     /* justify-content: center; */
     flex-direction: column;
     align-items: center;
+    color: white;
     
 }
-
+.container{
+    margin-top: 70px;
+    height: 85vh;
+}
 .hide{
     display: none;
 }
+
+body {
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/002/017/088/original/blue-and-pink-neon-gate-loop-motion-background-free-video.jpg");
+  background-size: cover;         /* Stretch to cover screen */
+  background-position: center;    /* Keep it centered */
+  background-repeat: no-repeat;   /* No tiling */
+  background-attachment: fixed;   /* FIXED background */
+}
+
