@@ -43,7 +43,7 @@ const enabBox = (box) => {
   for ( box of boxes) {
     box.innerText = ""
       box.disabled = false
-      box.style.backgroundColor = "bisque"
+      box.style.backgroundColor = "rgb(0, 0, 0 , 0.7)"
   }
   
 }
